@@ -1,0 +1,77 @@
+h2{
+    text-align: center;
+}
+.a,.c{
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+ .c{
+    background-color: rgb(219, 216, 216);
+    padding-bottom: 20px;
+ }
+ .d{
+    padding-right: 20px;
+    font-size: 19px;
+    font-weight: bold;
+ }
+ .newadd{
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 20px;
+    top: -190px;
+    
+ }
+ .rect1{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(219, 216, 216);
+    width: 350px;
+    margin-top: 90px;
+ }
+ .b{
+    margin-left: 400px;
+    margin-top: -60px;
+ }
+ .phoneno{
+    width: 1000px;
+    margin-left: 400px;
+ }
+ .rect2{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(219, 216, 216);
+    width: 350px;
+    margin-top: 40px;
+ }
+ .bankdet{
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 20px;
+    top: -110px;
+ }
+ .bank{
+    margin-left: 415px;
+    margin-top: -10px;
+ }
+ button{
+    position: absolute;
+    top: 1260px;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    background: #3fd695;
+    border: 2px;
+    outline-width: 0ch;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+ }

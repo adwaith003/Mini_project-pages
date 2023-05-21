@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGNUP</title>
+        <link rel="stylesheet" type="text/css" href="signup.css">
+        <img src="pics/signup.png" alt="header image" width="100%">
+    </head>
+    <body>
+        <div class="create">
+            <h2>CREATE AN ACCOUNT </h2>
+        </div>
+        <br><br>
+        <div class="createlogin">
+            <div class="b">
+                <label>CREATE LOGIN :</label>
+            </div>
+            <div class="rect1">
+                <div class="labels">
+                    <label class="d">USERNAME :</label><br><br>
+                    <label class="e">PASSWORD :</label><br><br>
+                    <label >CONFIRM PASSWORD :</label><br><br>
+                </div>
+                <div class="inputs">
+                    <input type="text" class="a" required placeholder="Username"><br><br>
+                    <input type="text" class="a" required placeholder="Password"><br><br>
+                    <input type="text" class="a" required placeholder="Confirm password"><br><br>
+                </div>
+                <div class="uploadimg">
+                    <label for="file">Upload-Images:</label>
+                    <input type="file" required id="file"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactinfo">
+            <div class="b">
+                <label>YOUR CONTACT INFORMATION :</label>
+            </div>
+            <div class="rect1">
+                <div class="labels">
+                    <label class="e">EMAIL :</label><br><br>
+                    <label >CONTACT NUMBER :</label><br><br>
+                </div>
+                <div class="inputs">
+                    <input type="email" class="a" required placeholder="Email"><br><br>
+                    <input type="text" class="a" required placeholder="Phone number"><br><br>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="personaldet">
+            <div class="b">
+                <label>PERSONAL DETAILS :</label>
+            </div>
+            <div class="rect1">
+                <div class="labels">
+                    <label class="e">FIRSTNAME :</label><br><br>
+                    <label >LASTNAME :</label><br><br>
+                </div>
+                <div class="inputs">
+                    <input type="text" class="a" required placeholder="Firstname"><br><br>
+                    <input type="text" class="a" required placeholder="Lastname"><br><br>
+                </div>
+                <div class="chkbx">
+                   <input type="checkbox">
+                   <label>Differenty Abled</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="Addressinfo">
+            <div class="b">
+                <label>ADDRESS INFORMATION :</label>
+            </div>
+            <div class="rect1">
+                <div class="labels">
+                    <label class="c">STREET ADDRESS 1 :</label><br><br>
+                    <label class="c">STREET ADDRESS 2 :</label><br><br>
+                    <label class="d">CITY :</label><br><br>
+                    <label class="d">STATE :</label><br><br>
+                    <label class="e" >COUNTRY :</label><br><br>
+                    <label class="e">PINCODE :</label><br><br>
+        
+                </div>
+                <div class="inputs">
+                    <input type="text" class="a" required placeholder="Adressline 1"><br><br>
+                    <input type="text" class="a" required placeholder="Addressline 2"><br><br>
+                    <input type="text" class="a" required placeholder="City"><br><br>
+                    <input type="text" class="a" required placeholder="State"><br><br>
+                    <input type="text" class="a" required placeholder="Country"><br><br>
+                    <input type="text" class="a" required placeholder="Pincode"><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="Bankdet">
+            <div class="b">
+                <label>BANK DETAILS :</label>
+            </div>
+            <div class="rect1">
+                <div class="labels">
+                    <label class="d">ACCOUNT NUMBER :</label><br><br>
+                    <label class="e">IFSC CODE :</label><br><br>
+                    <label class="e">UPI ID :</label><br><br>
+                    
+                </div>
+                <div class="inputs">
+                    <input type="text" class="a" required placeholder="Account number"><br><br>
+                    <input type="text" class="a" required placeholder="IFSC"><br><br>
+                    <input type="text" class="a" required placeholder="UPI ID"><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="Agreements">
+            <div class="b">
+                <label>AGREEMENTS :</label>
+            </div>
+            <div class="rect1">
+                <div class="chkbx">
+                    <input type="checkbox">
+                    <a href="">I Agree To The Terms And Conditions</a>
+                </div>
+                
+                <div class="captcha">
+                    <div class="spinner">
+                        <label>
+                            <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                            <span class="checkmark"><span>&nbsp;</span></span>
+                        </label>
+                    </div>
+                    <div class="text">
+                        I'm not a robot
+                    </div>
+                    <div class="logo">
+                        
+                        <p>reCAPTCHA</p>
+                        <small>Privacy - Terms</small>
+                    </div>
+
+                </div>
+                <div class="butto">
+                    <button>SUBMIT</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </body>
+</html>
