@@ -1,128 +1,124 @@
-*{
-  
-  margin: 0;
-  padding: 0;
-  font-family: 'poppins',sans-serif;
+.labels{
+  display: inline-block;
+  font-size: large;
 }
-
-.rectangle{
-  height: 1000px;
-    background-color: #beb6b6fb;
-    align-items: start;
-}
-h2{
-  font-size: 2em;
-  color: #0b0b0b;
-  text-align: center;
-}
-
 .inputbox{
-  position: relative;
-  right: 300;
-  margin: 50px 0;
-  width: 310px;
-  border-bottom: 2px solid #000000;
-}
-
-.Upload-images{
-  transform: translate(1200px, 50px);
-}
-.otherdoc{
-    transform: translate(570px, 70px);
-}
-
-
-.inputbox label{
-  position: relative;
-  top: 50%;
-  left: 20px;
-  transform: translateY(-50%);
-  color: #0b0000;
-  font-size: 1em;
-  pointer-events: none;
-  transition: .5s;
-}
-.inputbox input {
-  width: 100%;
-  height: 50px;
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 1em;
-  padding:0 35px 0 5px;
-  color: #090101;
-}
-.inputbox ion-icon{
-  position: absolute;
-  right: 8px;
-  color: #0a0101;
-  font-size: 1.2em;
-  top: 20px;
-}
-
-button{
-  position: absolute;
-  top: 1250px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  height: 50px;
-  border-radius: 40px;
-  background: #3fd695;
-  border: 2px;
-  outline-width: 0ch;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 600;
-}
-.category{
-  position: relative;
-  left:25px
+  display: inline-block;
+  padding-left: 30px;
+  margin-left: 150px;
   
 }
-.product-descr{
+.a{
+  width: 600px;
+  height: 100px;
+}
+.aligned-text{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.b{
+  width: 300px;
+  height: 30px;
+}
+.c{
+  height: 30px;
+}
+.f1{
   position: relative;
-  top: 0px;
-  left: 30px;
+  top: -110px;
+  left: 130px;
 }
-.product-descr input{
+.f3{
   position: relative;
-  padding: 50px;
-  width:500px;
-  top: 0px;
-  left: 20px;
+  top: -10px;
+  left: 130px;
 }
-.otherdoc input{
-  display: none;
+.f2{
+  position: relative;
+  top: -80px;
+  left: 130px;
 }
-.otherdoc label{
-  font-size: 24px;
-  border: 1px solid black;
-  padding: 30px;
-  height: 1400px;
-  width: 150px;
-  border-radius: 6px;
-  border: 1px dashed #0b0000;
-}
-.otherdoc label:hover{
-  color: #de0611;
-  border: 1px dashed #999;
+.rectangle{
+  display: inline-block;
+  position: relative;
+  left: -20px;
 }
 
-.Upload-images input{
-  display: none;
-}
-.Upload-images label{
-  font-size: 24px;
-  border: 1px solid black;
-  padding: 30px;
-  height: 1400px;
-  width: 150px;
-  border-radius: 6px;
-  border: 1px dashed #0b0000;
-}
-.Upload-images label:hover{
-  color: #de0611;
-  border: 1px dashed #999;
 
+.labels{
+  display: inline-block;
+ 
+  font-size: large;
+}
+.inputbox{
+  display: inline-block;
+  padding-left: 30px;
+  margin-left: 150px;
+  
+}
+.a{
+  width: 600px;
+  height: 100px;
+}
+.aligned-text{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.b{
+  width: 300px;
+  height: 30px;
+}
+.c{
+  height: 30px;
+}
+.f1{
+  position: relative;
+  top: -110px;
+  left: 130px;
+}
+.f3{
+  position: relative;
+  top: -10px;
+  left: 130px;
+}
+.f2{
+  position: relative;
+  top: -80px;
+  left: 130px;
+}
+.rectangle{
+  display: inline-block;
+  position: relative;
+  left: -20px;
+}
+.bt1{
+  position: relative;
+  left: 630px;
+  top: 15px;
+  width: 300px;
+  height: 100px;
+ }
+ .h{
+   width: 250px;
+   height: 50px;
+   border-radius: 30px;
+   cursor: pointer;
+   background-color: rgb(229, 148, 148);
+ }
+ .h:hover {
+   background-color: rgb(82, 237, 149);
+ }
+ 
+ .container{
+   background-color: rgb(228, 229, 229);
+ }
+.btns{
+  margin-left: 150px;
+}
+.l{
+  margin-left: 100px;
+  padding: 20px;
+}
+.i{
+  padding-top:20px;
 }
